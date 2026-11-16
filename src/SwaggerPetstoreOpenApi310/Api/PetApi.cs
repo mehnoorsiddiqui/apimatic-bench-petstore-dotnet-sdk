@@ -108,7 +108,7 @@ public sealed class PetApi
         _rawClient.Execute(
             _server.Default("/pet/findByStatus"),
             [],
-            [new Param("status", request.Status)],
+            [new Param("petStatus", request.PetStatus)],
             [],
             HttpMethod.Get,
             EmptyBody.Instance,

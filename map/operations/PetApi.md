@@ -42,7 +42,7 @@ Accessor: `client.PetApi` · Source: `src/SwaggerPetstoreOpenApi310/Api/PetApi.c
 
 - **Auth**: `options.PetstoreAuth`
 - **Signature**: `FindPetsByStatus(FindPetsByStatusRequest request, RequestOptions? requestOptions = null, CancellationToken cancellationToken = default)`
-- **Query params (wire ← C#)**: `status` ← `Status`
+- **Query params (wire ← C#)**: `petStatus` ← `PetStatus`
 - **Returns**: `IReadOnlyList<Pet>`
 - **Error**: `ApiException<FindPetsByStatusError>` — **Case A (typed)**
 - **Error accessors**: `TryGetNoContent([NotNullWhen(true)] out RawError? value)` [400] · `TryGetRawError([NotNullWhen(true)] out RawError? error)` [fallback]
