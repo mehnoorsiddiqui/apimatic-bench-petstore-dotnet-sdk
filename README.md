@@ -26,7 +26,7 @@ Some useful links:
 To add the .NET SDK to your project from NuGet:
 
 ```bash
-dotnet add package ApimaticbenchPetstoreSDK
+dotnet add package ApimaticBench.Petstore
 ```
 
 To build against the SDK source instead, add it as a project reference into your solution:

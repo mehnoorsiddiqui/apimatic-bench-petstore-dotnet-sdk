@@ -5,8 +5,8 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <PackageId>ApimaticbenchPetstoreSDK</PackageId>
-        <AssemblyName>ApimaticbenchPetstoreSDK</AssemblyName>
+        <PackageId>ApimaticBench.Petstore</PackageId>
+        <AssemblyName>ApimaticBench.Petstore</AssemblyName>
         <Authors>MAHNOOR SIDDIQUI</Authors>
         <Description>abc</Description>
         <PackageProjectUrl>https://docs.apimatic.io/v4</PackageProjectUrl>
